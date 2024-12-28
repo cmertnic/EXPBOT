@@ -1,0 +1,6 @@
+node_modules
+.env
+members.db
+mutes.db
+server_settings.db
+warnings.db
