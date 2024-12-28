@@ -1,6 +1,7 @@
 node_modules
 .env
 members.db
+experience.db
 mutes.db
 server_settings.db
 warnings.db
