@@ -2,7 +2,7 @@ const { SlashCommandBuilder, Client, ChannelType, PermissionsBitField, EmbedBuil
 require('dotenv').config();
 const { getUserTotalExperience } = require('../../database/experienceDb'); // Импортируем функцию для получения опыта
 const { i18next } = require('../../i18n');
-
+const { getServerSettings } = require('../../database/settingsDb');
 const USER_OPTION_NAME = 'user';
 
 module.exports = {
